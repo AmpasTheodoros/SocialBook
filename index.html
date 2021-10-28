@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name='viewport' content="width=divice-width, initial-scale=1.0">
+        <title>Socialbook</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"></head>
+        <script src="https://kit.fontawesome.com/4464a04838.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <img src="Socialbook_img/logo.png" class="logo">
+                <ul>
+                    <li><img src="Socialbook_img/notification.png"></li>
+                    <li><img src="Socialbook_img/inbox.png"></li>
+                    <li><img src="Socialbook_img/video.png"></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+
+                <div class="search-box">
+                    <img src="Socialbook_img/search.png">
+                    <input type="text" placeholder="Search" list="names">
+                    <datalist id="names">
+                        <option value="Μυρτω Παναγιωτοπουλου"></option>
+                        <option value="Μυρτω Παναγιωτοπουλου"></option>
+                        <option value="Μυρτω Παναγιωτοπουλου"></option>
+                    </datalist>
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="Socialbook_img/Thodoris120.jpg">
+                </div>
+
+            </div>
+            <!-- Setting Menu -->
+            <div class="settings-menu">
+
+                <div id="dark-btn" class="dark-btn-on">
+                    <span></span>
+                </div>
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/Thodoris120.jpg">
+                        <div>
+                            <p>Ampas Thodoris</p>
+                            <a href="#">See your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="Socialbook_img/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="settings-links">
+                        <img src="Socialbook_img/setting.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="Socialbook_img/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="Socialbook_img/help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="Socialbook_img/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="Socialbook_img/display.png" class="settings-icon">
+                        <a href="#">Display & Accessibility <img src="Socialbook_img/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="Socialbook_img/logout.png" class="settings-icon">
+                        <a href="#">Logout <img src="Socialbook_img/arrow.png" width="10px"></a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <!-- Left-sidebar -->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#"><img class="left-icon" src="Socialbook_img/Thodoris120.jpg"> <b>Ampas Thodoris</b></a>
+                    <a href="#"><img src="Socialbook_img/Covid.png"> COVID-19 Information Centre</a>
+                    <a href="#"><img src="Socialbook_img/Friend.png"> Friends</a>
+                    <a href="#"><img src="Socialbook_img/GroupFB.png"> Group</a>
+                    <a href="#"><img src="Socialbook_img/marketplace1.png"> Marketplace</a>
+                    <a href="#"><img src="Socialbook_img/WatchFB.png"> Watch</a>
+                    <a href="#"><img src="Socialbook_img/event.png"> Events</a>
+                    <a href="#"><img src="Socialbook_img/memories.png"> Memories</a>
+                    <a href="#"><img src="Socialbook_img/Saved.png"> Saved</a>
+                    <a href="#"><img src="Socialbook_img/Pages.png"> Pages</a>
+                    <a href="#">See More</a>
+                </div>
+                <div class="shortcut-links">
+                    <!------------------------------------ Shortcuts ------------------------------------>
+                    <p>Your Shortcuts</p>
+                    <a href="#"><img src="Socialbook_img/Pasxalis100.jpg"> Local Dealer </a>
+                    <a href="#"><img src="Socialbook_img/shortcut-2.png"> Web Design Courses </a>
+                    <a href="#"><img src="Socialbook_img/auth100.jpg"> ΠΛΗΡΟΦΟΡΙΚΗ ΑΠΘ </a>
+                    <a href="#"><img src="Socialbook_img/shortcut-4.png"> Web Experts </a>
+                    <!------------------------------------ Shortcuts ------------------------------------>
+                </div>
+            </div>
+            <!-- main content -->
+            <div class="main-content">
+                <!------------------------------------ STORY ------------------------------------>
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="Socialbook_img/upload.png">
+                        <p>Post a Story</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="Socialbook_img/Zisis200.jpg">
+                        <p>Ζήσης Ζαβράκης</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="Socialbook_img/Haris.jpg">
+                        <p>Haris Ampas</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="Socialbook_img/aggelos.jpg">
+                        <p>Άγγελος Γρουνίδης</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="Socialbook_img/Papas200.jpg">
+                        <p>Πασχάλης Γεωργόπουλος</p>
+                    </div>
+                </div>
+                <!------------------------------------ STORY ------------------------------------>
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/Thodoris120.jpg">
+                        <div>
+                            <p>Ampas Thodoris</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Ampas?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="Socialbook_img/photo_video.png"> Photo/Video</a>
+                            <a href="#"><img src="Socialbook_img/Tag.png"> Tag friends</a>
+                            <a href="#"><img src="Socialbook_img/feeling.png"> Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------------------------------------------------------------------------------- POSTS -------------------------------------------------------------------------------------------------->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Socialbook_img/Thodoris120.jpg">
+                            <div>
+                                <p>Ampas Thodoris</p>
+                                <span id='datetime'></span>
+                                <script>
+                                    n =  new Date();
+                                    y = n.getFullYear();
+                                    m = n.getMonth();
+                                    d = n.getDate();
+                                    M = n.toLocaleTimeString();
+                                    var monthArr = ["January", "February","March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
+                                    m = monthArr[m];
+                                    document.getElementById('datetime').innerHTML= m + " " + d + " " + y + ", " + M;
+                                </script>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Α εφτιαξα το Dark mode <a href="#">#DarkMode</a><a href="#"> #SocialBook</a></p>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="Socialbook_img/like.png"> 1200</div>
+                            <div><img src="Socialbook_img/comments.png"> 1</div>
+                            <div><img src="Socialbook_img/share.png"> 105</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="Socialbook_img/Thodoris120.jpg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Socialbook_img/Zisis200.jpg">
+                            <div>
+                                <p>Ζήσης Ζαβράκης</p>
+                                <span id='datetime1'></span>
+                                <script>
+                                    n =  new Date();
+                                    y = n.getFullYear();
+                                    m = n.getMonth();
+                                    d = n.getDate();
+                                    M = n.toLocaleTimeString();
+                                    monthArr = ["January", "February","March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
+                                    m = monthArr[m];
+                                    document.getElementById('datetime1').innerHTML= m + " " + d + " " + y + ", " + M;
+                                </script>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Μόλις γύρισα απο το πάρκο <a href="#">#Πάρκο</a><a href="#"> #Αυθόρμητη</a></p>
+                    <img src="Socialbook_img/Zisis.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="Socialbook_img/like-blue.png"> 7,874,965,825</div>
+                            <div><img src="Socialbook_img/comments.png"> 1</div>
+                            <div><img src="Socialbook_img/share.png"> 105</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="Socialbook_img/aggelos.jpg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Socialbook_img/aggelos.jpg">
+                            <div>
+                                <p>Άγγελος Γρουνίδης</p>
+                                <span id='date-time'></span>
+                                <script>
+                                    n =  new Date();
+                                    y = n.getFullYear();
+                                    m = n.getMonth();
+                                    d = n.getDate();
+                                    M = n.toLocaleTimeString();
+                                    monthArr = ["January", "February","March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
+                                    m = monthArr[m];
+                                    document.getElementById('date-time').innerHTML= m + " " + d + " " + y + ", " + M;
+                                </script>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Πάμε να τους αγιάσουμε <a href="#">#ΜΓΔ</a><a href="#"> #Πορεία_κατά_της_υποχρεωτικής_εκπαίδευσης</a></p>
+                    <img src="Socialbook_img/Papas.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="Socialbook_img/like-blue.png"> 7,874,965,825</div>
+                            <div><img src="Socialbook_img/comments.png"> 1</div>
+                            <div><img src="Socialbook_img/share.png"> 105</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="Socialbook_img/aggelos.jpg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Socialbook_img/Thodoris120.jpg">
+                            <div>
+                                <p>Ampas Thodoris</p>
+                                <span id='datetime'></span>
+                                <script>
+                                    n =  new Date();
+                                    y = n.getFullYear();
+                                    m = n.getMonth();
+                                    d = n.getDate();
+                                    M = n.toLocaleTimeString();
+                                    var monthArr = ["January", "February","March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
+                                    m = monthArr[m];
+                                    document.getElementById('datetime').innerHTML= m + " " + d + " " + y + ", " + M;
+                                </script>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Den ksero ti na postaro opote kante me follow sto Instagram <span>@thodoris_amp__</span> auta <a href="#">#ProtoPost</a><a href="#"> #SocialBook</a></p>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="Socialbook_img/like.png"> 1200</div>
+                            <div><img src="Socialbook_img/comments.png"> 1</div>
+                            <div><img src="Socialbook_img/share.png"> 105</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="Socialbook_img/Thodoris120.jpg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------------------------------------------------------------------------------- POSTS -------------------------------------------------------------------------------------------------->
+
+                <button type="button" class="load-more-btn">Load More</button>
+            </div>
+            <!-- right-sidebar -->
+            <div class="right-sidebar">
+
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>17</h3>
+                        <span>July</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Acm Web Dev</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Aristotle University of Thessaloniki</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>26</h3>
+                        <span>September</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Reunion </h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Aristotle University of Thessaloniki</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-title">
+                    <h4>Sponsored</h4>
+                    <a href="#">Close</a>
+                </div>
+                <img src="Socialbook_img/iothetise%20ena%20delfini.jpg" class="sidebar-ads">
+
+                <div class="sidebar-title">
+                    <h4>Chat</h4>
+                    <a href="#">Hide Chat</a>
+                </div>
+
+                <!------------------------------------ ONLINE MEMBERS ------------------------------------>
+                <div class="online-list">
+                    <div class="onlineC">
+                        <img src="Socialbook_img/Mirto.jpg">
+                    </div>
+                    <p>Μυρτώ Παναγιωτοπούλου</p>
+                </div>
+                <div class="online-list">
+                    <div class="onlineC">
+                        <img src="Socialbook_img/Dimitra.jpg">
+                    </div>
+                    <p>Dimitra Androniadou</p>
+                </div>
+                <div class="online-list">
+                    <div class="onlineC">
+                        <img src="Socialbook_img/aggelos.jpg">
+                    </div>
+                    <p>Άγγελος Γρουνίδης</p>
+                </div>
+                <div class="online-list">
+                    <div class="onlineC">
+                        <img src="Socialbook_img/Haris.jpg">
+                    </div>
+                    <p>Haris Ampas</p>
+                </div>
+                <div class="online-list">
+                    <div class="onlineC">
+                        <img src="Socialbook_img/Papas200.jpg">
+                    </div>
+                    <p>Πασχάλης Γεωργόπουλος</p>
+                </div>
+                <div class="online-list">
+                    <div class="onlineC">
+                        <img src="Socialbook_img/Zisis200.jpg">
+                    </div>
+                    <p>Ζήσης Ζαβράκης</p>
+                </div>
+
+                <!------------------------------------ ONLINE MEMBERS ------------------------------------>
+
+            </div>
+        </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - AmpasTheodoros Github</p>
+    </div>
+    <script src="JaveScript.js"></script>
+    </body>
+</html>
